@@ -1,0 +1,367 @@
+    1  ls /
+    2  /home
+    3  cd /home
+    4  mkdir -p test1/index.php
+    5  ls
+    6  cd test1
+    7  ls
+    8  cd ..
+    9  pwd
+   10  cp -r test1 test1_copy
+   11  ls
+   12  mkdir test2
+   13  ls
+   14  echo '# Hello World' > README.md
+   15  cat README.md
+   16  echo '# Server Lesson' >README.md
+   17  cat README.md 
+   18  echo 'Linux Practice' >> README.md 
+   19  cat README.md 
+   20  cd ..
+   21  apt update -y && apt install -y vim
+   22  cd /home
+   23  vi README.md 
+   24  cd /root
+   25  mkdir server_lesson && cd server_lesson
+   26  apt update -y && apt install -y git
+   27  git version
+   28  git init
+   29  touch first.txt
+   30  ls
+   31  ls -a
+   32  mkdir -p linux_practice1/public
+   33  ls
+   34  cd linux_practice1/
+   35  ls
+   36  touch index.php
+   37  ls
+   38  rm index.php
+   39  ls
+   40  cd public/
+   41  touch index.php
+   42  ls
+   43  cd ..
+   44  cd public/
+   45  cp index.php index_bk.php
+   46  ls
+   47  pwd
+   48  cd ..
+   49  ls
+   50  cp -r public tmp
+   51  ls
+   52  cd tmp/
+   53  ls
+   54  cd ..
+   55  cd tmp/
+   56  ls
+   57  rm index_bk.php 
+   58  ls
+   59  cd ../..
+   60  touch README.md
+   61  rm README.md 
+   62  touch README.md
+   63  vi README.md 
+   64  git status
+   65  git add  README.md
+   66  git status
+   67  git commit -m 'add: README.md'
+   68  git status
+   69  git add first.txt
+   70  git status
+   71  git add  linux_practice1/
+   72  git status
+   73  git config --global user.email "nakaiyuuri0115@gmail.com"
+   74  git config --global user.name "nakaiyuuri"
+   75  git status
+   76  git commit -m 'add: README.md, first.txt, linux_practice1'
+   77  git status
+   78  git
+   79  git kig
+   80  git log
+   81  exit
+   82  cd /root
+   83  pwd
+   84  ls
+   85  cd server_lesson/
+   86  ls
+   87  mkdir -p linux_practice2/documents
+   88  ls
+   89  ls linux_practice2
+   90  touch linux_practice2/documents/gizumo{01..50}.md
+   91  ls linux_practice2/documents/
+   92  mkdir linux_practice2/trash
+   93  ls linux_practice2/
+   94  mv linux_practice2/documents/gizumo{20..40}.md linux_practice2/trash/
+   95  ls linux_practice2/trash/
+   96  le linux_practice2/documents/
+   97  ls linux_practice2/documents/
+   98  touch linux_practice2/.gitignore
+   99  ls -a
+  100  ls linux_practice2
+  101  ls -a linux_practice2
+  102  vi .gitignore
+  103  ls -a
+  104  vi linux_practice2/.gitignore 
+  105  ls linux_practice2/trash/
+  106  vi linux_practice2/.gitignore 
+  107  ls linux_practice2/trash/
+  108  git status
+  109  cd linux_practice2/trash/
+  110  ls
+  111  git status
+  112  cd ..
+  113  git status
+  114  cd ..
+  115  git status
+  116  ls linux_practice2
+  117  ls -a linux_practice2
+  118  vi linux_practice2/.gitignore
+  119  history300
+  120  history 300
+  121  echo 
+  122  echo ' 1  ls /
+    2  /home
+    3  cd /home
+    4  mkdir -p test1/index.php
+    5  ls
+    6  cd test1
+    7  ls
+    8  cd ..
+    9  pwd
+   10  cp -r test1 test1_copy
+   11  ls
+   12  mkdir test2
+   13  ls
+   14  echo '# Hello World' > README.md
+   15  cat README.md
+   16  echo '# Server Lesson' >README.md
+   17  cat README.md
+   18  echo 'Linux Practice' >> README.md
+   19  cat README.md
+   20  cd ..
+   21  apt update -y && apt install -y vim
+   22  cd /home
+   23  vi README.md
+   24  cd /root
+   25  mkdir server_lesson && cd server_lesson
+   26  apt update -y && apt install -y git
+   27  git version
+   28  git init
+   29  touch first.txt
+   30  ls
+   31  ls -a
+   32  mkdir -p linux_practice1/public
+   33  ls
+   34  cd linux_practice1/
+   35  ls
+   36  touch index.php
+   37  ls
+   38  rm index.php
+   39  ls
+   40  cd public/
+   41  touch index.php
+   42  ls
+   43  cd ..
+   44  cd public/
+   45  cp index.php index_bk.php
+   46  ls
+   47  pwd
+   48  cd ..
+   49  ls
+   50  cp -r public tmp
+   51  ls
+   52  cd tmp/
+   53  ls
+   54  cd ..
+   55  cd tmp/
+   56  ls
+   57  rm index_bk.php
+   58  ls
+   59  cd ../..
+   60  touch README.md
+   61  rm README.md
+   62  touch README.md
+   63  vi README.md
+   64  git status
+   65  git add  README.md
+   66  git status
+   67  git commit -m 'add: README.md'
+   68  git status
+   69  git add first.txt
+   70  git status
+   71  git add  linux_practice1/
+   72  git status
+   73  git config --global user.email "nakaiyuuri0115@gmail.com"
+   74  git config --global user.name "nakaiyuuri"
+   75  git status
+   76  git commit -m 'add: README.md, first.txt, linux_practice1'
+   77  git status
+   78  git
+   79  git kig
+   80  git log
+   81  exit
+   82  cd /root
+   83  pwd
+   84  ls
+   85  cd server_lesson/
+   86  ls
+   87  mkdir -p linux_practice2/documents
+   88  ls
+   89  ls linux_practice2
+   90  touch linux_practice2/documents/gizumo{01..50}.md
+   91  ls linux_practice2/documents/
+   92  mkdir linux_practice2/trash
+   93  ls linux_practice2/
+   94  mv linux_practice2/documents/gizumo{20..40}.md linux_practice2/trash/
+   95  ls linux_practice2/trash/
+   96  le linux_practice2/documents/
+   97  ls linux_practice2/documents/
+   98  touch linux_practice2/.gitignore
+   99  ls -a
+  100  ls linux_practice2
+  101  ls -a linux_practice2
+  102  vi .gitignore
+  103  ls -a
+  104  vi linux_practice2/.gitignore
+  105  ls linux_practice2/trash/
+  106  vi linux_practice2/.gitignore
+  107  ls linux_practice2/trash/
+  108  git status
+  109  cd linux_practice2/trash/
+  110  ls
+  111  git status
+  112  cd ..
+  113  git status
+  114  cd ..
+  115  git status
+  116  ls linux_practice2
+  117  ls -a linux_practice2
+  118  vi linux_practice2/.gitignore
+  119  history300
+  120  history 300
+
+
+
+exit
+  123  echo ' 1  ls /
+    2  /home
+    3  cd /home
+    4  mkdir -p test1/index.php
+    5  ls
+    6  cd test1
+    7  ls
+    8  cd ..
+    9  pwd
+   10  cp -r test1 test1_copy
+   11  ls
+   12  mkdir test2
+   13  ls
+   14  echo '# Hello World' > README.md
+   15  cat README.md
+   16  echo '# Server Lesson' >README.md
+   17  cat README.md
+   18  echo 'Linux Practice' >> README.md
+   19  cat README.md
+   20  cd ..
+   21  apt update -y && apt install -y vim
+   22  cd /home
+   23  vi README.md
+   24  cd /root
+   25  mkdir server_lesson && cd server_lesson
+   26  apt update -y && apt install -y git
+   27  git version
+   28  git init
+   29  touch first.txt
+   30  ls
+   31  ls -a
+   32  mkdir -p linux_practice1/public
+   33  ls
+   34  cd linux_practice1/
+   35  ls
+   36  touch index.php
+   37  ls
+   38  rm index.php
+   39  ls
+   40  cd public/
+   41  touch index.php
+   42  ls
+   43  cd ..
+   44  cd public/
+   45  cp index.php index_bk.php
+   46  ls
+   47  pwd
+   48  cd ..
+   49  ls
+   50  cp -r public tmp
+   51  ls
+   52  cd tmp/
+   53  ls
+   54  cd ..
+   55  cd tmp/
+   56  ls
+   57  rm index_bk.php
+   58  ls
+   59  cd ../..
+   60  touch README.md
+   61  rm README.md
+   62  touch README.md
+   63  vi README.md
+   64  git status
+   65  git add  README.md
+   66  git status
+   67  git commit -m 'add: README.md'
+   68  git status
+   69  git add first.txt
+   70  git status
+   71  git add  linux_practice1/
+   72  git status
+   73  git config --global user.email "nakaiyuuri0115@gmail.com"
+   74  git config --global user.name "nakaiyuuri"
+   75  git status
+   76  git commit -m 'add: README.md, first.txt, linux_practice1'
+   77  git status
+   78  git
+   79  git kig
+   80  git log
+   81  exit
+   82  cd /root
+   83  pwd
+   84  ls
+   85  cd server_lesson/
+   86  ls
+   87  mkdir -p linux_practice2/documents
+   88  ls
+   89  ls linux_practice2
+   90  touch linux_practice2/documents/gizumo{01..50}.md
+   91  ls linux_practice2/documents/
+   92  mkdir linux_practice2/trash
+   93  ls linux_practice2/
+   94  mv linux_practice2/documents/gizumo{20..40}.md linux_practice2/trash/
+   95  ls linux_practice2/trash/
+   96  le linux_practice2/documents/
+   97  ls linux_practice2/documents/
+   98  touch linux_practice2/.gitignore
+   99  ls -a
+  100  ls linux_practice2
+  101  ls -a linux_practice2
+  102  vi .gitignore
+  103  ls -a
+  104  vi linux_practice2/.gitignore
+  105  ls linux_practice2/trash/
+  106  vi linux_practice2/.gitignore
+  107  ls linux_practice2/trash/
+  108  git status
+  109  cd linux_practice2/trash/
+  110  ls
+  111  git status
+  112  cd ..
+  113  git status
+  114  cd ..
+  115  git status
+  116  ls linux_practice2
+  117  ls -a linux_practice2
+  118  vi linux_practice2/.gitignore
+  119  history300
+  120  history 300
+'
+  124  history 300 > linux_practice2/exec_command.log
